@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>LAKECOMM-IMS</title>
+  
+  <link rel="icon" type="image/png"<a href="https://i.ibb.co/FkKTnZq5/image.png">
+  <link rel="apple-touch-icon" href="<a href="https://i.ibb.co/FkKTnZq5/image.png">
+</head>
+<body>
+<iframe 
+
+    src="https://script.google.com/macros/s/AKfycbzosi6b157R_s16w2j2oHkVPhnZmX1vhzK3WxgHfkovDHRmp-7GVFUEYq7R_dcR99nhww/exec"
+    width="100%"
+    height="100%"
+    allow="fullscreen" 
+    allowfullscreen="true"
+    style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+</iframe>
+
+  <script>
+    window.onload = function() {
+      // Note: Browsers usually require a user click to trigger full-screen.
+      // If this fails, the iframe will still fill the window normally.
+      document.querySelector('iframe')
+        .requestFullscreen()
+        .catch((err) => {
+          console.warn('Full-screen blocked by browser policy; user interaction required.');
+        });
+    };
+  </script>
+</body>
+</html>
