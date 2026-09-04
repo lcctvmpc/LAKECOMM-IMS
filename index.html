@@ -18,9 +18,11 @@
       position: absolute !important;
       top: 0 !important;
       left: 0 !important;
-      width: 100% !important;
-      height: 100% !important;
+      width: 111.11% !important;  /* 100 / 0.9 para ma-compensate ang 90% scale */
+      height: 111.11% !important; /* 100 / 0.9 para ma-compensate ang 90% scale */
       border: none !important;
+      transform: scale(0.9) !important;
+      transform-origin: 0 0 !important;
     }
   </style>
 </head>
